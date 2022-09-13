@@ -3,19 +3,11 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src="{{ asset('/resources/js/app.js') }}"></script>
+        <script src="{{asset('js/app.js')}}"></script> <!-- public/ 경로 -->
         <title>홈피티</title>
-        <!-- Fonts -->
-        <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-        <style>
-            body {
-                font-family: 'Nunito', sans-serif;
-            }
-        </style>
     </head>
     <body>
-        <header>
-            
-        </header>
+        <div id="app"></div>
     </body>
+    
 </html>
