@@ -1,13 +1,20 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="ko">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src="{{ asset('js/app.js') }}"></script> <!-- public/ 경로 -->
+        <link rel="stylesheet/scss" href="{{ asset('sass/main.scss') }}" type="text/css"/>
+        <link rel="stylesheet/scss" href="{{ asset('sass/public.scss') }}" type="text/css">
+        <script src="{{ asset('/js/app.js') }}"></script>
         <title>홈피티</title>
     </head>
     <body>
-        <div id="app"></div>
+        <section class="wrap">
+            @include('main.header')
+            @yield('main.content')
+            @include('main.footer')
+        </section>
     </body>
-    
+    <script>
+    </script>
 </html>
