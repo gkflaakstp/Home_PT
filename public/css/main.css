@@ -1,0 +1,60 @@
+/*  헤더  */
+.wrap > header {
+    border-bottom:1px solid var(--main-color);
+    height:70px;
+}
+
+.wrap > header > .header-inner {
+    width:85%;
+    height:100%;
+    margin:0 auto;
+}
+
+.wrap > header > .header-inner > .logo {
+    display:inline-block;
+    height:100%;
+    padding-top:18px;
+}
+
+
+.wrap > header > .header-inner > .signList {
+    float:right;
+    width:190px;
+    height:100%;
+    margin-top:14px;
+}
+
+.wrap > header > .header-inner > .signList > ul {
+    display:flex;
+    justify-content:space-around;
+}
+
+.wrap > header > .header-inner > .signList > ul > li {
+    width:84px;
+    height:28px;
+    text-align:center;
+    line-height:28px;
+    font-size:0.85em;
+    border-radius:4px;
+    border:1px solid #ccc;
+    background:var(--main-color);
+}
+
+.wrap > header > .header-inner > .signList > ul > li > a {
+    color:#fff;
+}
+
+/*  메인  */
+.main {
+    margin-top:20px;
+}
+
+.main > .main-inner {
+    width:85%;
+    margin:0 auto;
+}
+
+.main > .main-inner > .list > div > h2 {
+    color:#333;
+    font-size:.95em;
+}

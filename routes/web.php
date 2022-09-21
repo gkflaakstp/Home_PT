@@ -17,6 +17,15 @@ Route::get('/', function () {
     return view('/main/index');
 });
 
+Route::get('/login', function () {
+    return view('/signin/login');
+});
+
+Route::get('/signup', function () {
+    return view('/signin/signup');
+});
+
+// 웰컴 신경 ㄴㄴ
 Route::get('/welcome', function () {
     return view('welcome');
 });
